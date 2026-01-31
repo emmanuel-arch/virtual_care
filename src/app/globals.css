@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+  --color-card: #ffffff;
+  --color-card-foreground: #0f172a;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+  --color-border: #e2e8f0;
+  --color-primary: #0ea5e9;
+  
+  --color-medical-50: #f0f9ff;
+  --color-medical-100: #e0f2fe;
+  --color-medical-200: #bae6fd;
+  --color-medical-300: #7dd3fc;
+  --color-medical-400: #38bdf8;
+  --color-medical-500: #0ea5e9;
+  --color-medical-600: #0284c7;
+  --color-medical-700: #0369a1;
+  --color-medical-800: #075985;
+  --color-medical-900: #0c4a6e;
+
+  --color-health-50: #f0fdf4;
+  --color-health-100: #dcfce7;
+  --color-health-200: #bbf7d0;
+  --color-health-300: #86efac;
+  --color-health-400: #4ade80;
+  --color-health-500: #22c55e;
+  --color-health-600: #16a34a;
+  --color-health-700: #15803d;
+  --color-health-800: #166534;
+  --color-health-900: #14532d;
+
+  --shadow-medical: 0 10px 40px -10px rgba(14, 165, 233, 0.3);
+  --shadow-glow: 0 0 20px rgba(14, 165, 233, 0.4);
+  --shadow-elevated: 0 20px 60px -10px rgba(0, 0, 0, 0.3);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-figtree), "Figtree", system-ui, sans-serif;
+  }
+}

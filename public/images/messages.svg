@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <defs>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6"/>
+      <stop offset="100%" style="stop-color:#0d9488"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="600" fill="#f8fafc"/>
+  
+  <!-- Conversations List -->
+  <rect width="350" height="600" fill="white"/>
+  <text x="25" y="45" fill="#1e293b" font-family="system-ui" font-size="20" font-weight="700">Messages</text>
+  
+  <!-- Search -->
+  <rect x="15" y="60" width="320" height="40" rx="20" fill="#f1f5f9"/>
+  <text x="50" y="85" fill="#94a3b8" font-family="system-ui" font-size="13">Search conversations...</text>
+  
+  <!-- Conversation 1 - Active -->
+  <rect x="0" y="115" width="350" height="80" fill="#f0fdfa"/>
+  <circle cx="50" cy="155" r="25" fill="url(#teal)"/>
+  <text x="41" y="160" fill="white" font-family="system-ui" font-size="12" font-weight="600">SJ</text>
+  <text x="85" y="140" fill="#1e293b" font-family="system-ui" font-size="14" font-weight="600">Dr. Sarah Johnson</text>
+  <text x="85" y="158" fill="#64748b" font-family="system-ui" font-size="11">Internal Medicine</text>
+  <text x="85" y="175" fill="#475569" font-family="system-ui" font-size="11">Please keep a note of when the...</text>
+  <text x="280" y="140" fill="#94a3b8" font-family="system-ui" font-size="10">10:30 AM</text>
+  <circle cx="310" cy="160" r="10" fill="#14b8a6"/>
+  <text x="307" y="164" fill="white" font-family="system-ui" font-size="10">2</text>
+  
+  <!-- Conversation 2 -->
+  <rect x="0" y="195" width="350" height="80" fill="white"/>
+  <circle cx="50" cy="235" r="25" fill="#6366f1"/>
+  <text x="40" y="240" fill="white" font-family="system-ui" font-size="12" font-weight="600">MC</text>
+  <text x="85" y="220" fill="#1e293b" font-family="system-ui" font-size="14" font-weight="600">Dr. Michael Chen</text>
+  <text x="85" y="238" fill="#64748b" font-family="system-ui" font-size="11">Dermatology</text>
+  <text x="85" y="255" fill="#475569" font-family="system-ui" font-size="11">Thank you, I'll see you next week!</text>
+  <text x="280" y="220" fill="#94a3b8" font-family="system-ui" font-size="10">Yesterday</text>
+  
+  <!-- Conversation 3 -->
+  <rect x="0" y="275" width="350" height="80" fill="white"/>
+  <circle cx="50" cy="315" r="25" fill="#ec4899"/>
+  <text x="40" y="320" fill="white" font-family="system-ui" font-size="12" font-weight="600">EW</text>
+  <text x="85" y="300" fill="#1e293b" font-family="system-ui" font-size="14" font-weight="600">Dr. Emily Williams</text>
+  <text x="85" y="318" fill="#64748b" font-family="system-ui" font-size="11">Psychology</text>
+  <text x="85" y="335" fill="#475569" font-family="system-ui" font-size="11">Remember to practice the breathing...</text>
+  <text x="280" y="300" fill="#94a3b8" font-family="system-ui" font-size="10">Jan 28</text>
+  
+  <!-- Chat Area -->
+  <rect x="350" y="0" width="650" height="600" fill="#f8fafc"/>
+  
+  <!-- Chat Header -->
+  <rect x="350" y="0" width="650" height="80" fill="white"/>
+  <circle cx="395" cy="40" r="25" fill="url(#teal)"/>
+  <text x="386" y="45" fill="white" font-family="system-ui" font-size="12" font-weight="600">SJ</text>
+  <text x="435" y="32" fill="#1e293b" font-family="system-ui" font-size="16" font-weight="600">Dr. Sarah Johnson</text>
+  <text x="435" y="50" fill="#64748b" font-family="system-ui" font-size="12">Internal Medicine</text>
+  <text x="580" y="32" fill="#10b981" font-family="system-ui" font-size="10">✓ Verified</text>
+  
+  <!-- Appointment Banner -->
+  <rect x="365" y="90" width="620" height="45" rx="8" fill="#f0fdfa"/>
+  <text x="385" y="118" fill="#0d9488" font-family="system-ui" font-size="12">📅 Upcoming appointment: Tomorrow at 10:00 AM</text>
+  <rect x="870" y="100" width="100" height="25" rx="12" fill="#14b8a6"/>
+  <text x="885" y="117" fill="white" font-family="system-ui" font-size="10">View Details</text>
+  
+  <!-- Date Separator -->
+  <text x="650" y="165" fill="#94a3b8" font-family="system-ui" font-size="11" text-anchor="middle">Today</text>
+  
+  <!-- Incoming Message 1 -->
+  <rect x="385" y="185" width="350" height="60" rx="16" fill="white" style="filter: drop-shadow(0px 1px 3px rgba(0,0,0,0.08))"/>
+  <text x="400" y="210" fill="#1e293b" font-family="system-ui" font-size="13">Hello! I just wanted to follow up on our</text>
+  <text x="400" y="228" fill="#1e293b" font-family="system-ui" font-size="13">upcoming appointment.</text>
+  <text x="695" y="240" fill="#94a3b8" font-family="system-ui" font-size="10">9:30 AM</text>
+  
+  <!-- Outgoing Message 1 -->
+  <rect x="550" y="260" width="400" height="60" rx="16" fill="url(#teal)"/>
+  <text x="565" y="285" fill="white" font-family="system-ui" font-size="13">Hi Dr. Johnson! Yes, I've been having some</text>
+  <text x="565" y="303" fill="white" font-family="system-ui" font-size="13">recurring headaches I'd like to discuss.</text>
+  <text x="905" y="315" fill="rgba(255,255,255,0.7)" font-family="system-ui" font-size="10">9:32 AM ✓✓</text>
+  
+  <!-- Incoming Message 2 -->
+  <rect x="385" y="335" width="380" height="60" rx="16" fill="white" style="filter: drop-shadow(0px 1px 3px rgba(0,0,0,0.08))"/>
+  <text x="400" y="360" fill="#1e293b" font-family="system-ui" font-size="13">Can you tell me more about the frequency</text>
+  <text x="400" y="378" fill="#1e293b" font-family="system-ui" font-size="13">and intensity? Have you noticed any triggers?</text>
+  <text x="725" y="390" fill="#94a3b8" font-family="system-ui" font-size="10">9:35 AM</text>
+  
+  <!-- Outgoing Message 2 -->
+  <rect x="500" y="410" width="450" height="75" rx="16" fill="url(#teal)"/>
+  <text x="515" y="435" fill="white" font-family="system-ui" font-size="13">They happen about 2-3 times a week, usually in</text>
+  <text x="515" y="453" fill="white" font-family="system-ui" font-size="13">the afternoon. I think stress and screen time</text>
+  <text x="515" y="471" fill="white" font-family="system-ui" font-size="13">might be contributing factors.</text>
+  <text x="905" y="480" fill="rgba(255,255,255,0.7)" font-family="system-ui" font-size="10">10:15 AM ✓✓</text>
+  
+  <!-- Input Area -->
+  <rect x="350" y="520" width="650" height="80" fill="white"/>
+  <rect x="365" y="540" width="540" height="45" rx="22" fill="#f1f5f9"/>
+  <text x="395" y="568" fill="#94a3b8" font-family="system-ui" font-size="13">Type a message...</text>
+  <circle cx="930" cy="562" r="22" fill="url(#teal)"/>
+  <text x="922" y="568" fill="white" font-family="system-ui" font-size="16">→</text>
+</svg>

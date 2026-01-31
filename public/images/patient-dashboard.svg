@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdfa"/>
+      <stop offset="50%" style="stop-color:#f0f9ff"/>
+      <stop offset="100%" style="stop-color:#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6"/>
+      <stop offset="100%" style="stop-color:#0d9488"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="600" fill="url(#bg)"/>
+  
+  <!-- Sidebar -->
+  <rect width="220" height="600" fill="white"/>
+  <rect x="0" y="0" width="220" height="80" fill="url(#teal)"/>
+  <text x="30" y="50" fill="white" font-family="system-ui" font-size="20" font-weight="700">VirtualCare</text>
+  
+  <!-- Nav Items -->
+  <rect x="15" y="100" width="190" height="40" rx="8" fill="#f0fdfa"/>
+  <text x="55" y="125" fill="#0d9488" font-family="system-ui" font-size="14" font-weight="600">Dashboard</text>
+  <text x="30" y="170" fill="#64748b" font-family="system-ui" font-size="14">Find Practitioner</text>
+  <text x="30" y="210" fill="#64748b" font-family="system-ui" font-size="14">Appointments</text>
+  <text x="30" y="250" fill="#64748b" font-family="system-ui" font-size="14">Messages</text>
+  <text x="30" y="290" fill="#64748b" font-family="system-ui" font-size="14">Health Records</text>
+  
+  <!-- Main Content -->
+  <text x="250" y="50" fill="#1e293b" font-family="system-ui" font-size="24" font-weight="700">Welcome back, John!</text>
+  <text x="250" y="75" fill="#64748b" font-family="system-ui" font-size="14">Here's an overview of your health journey</text>
+  
+  <!-- Stats Cards -->
+  <rect x="250" y="100" width="170" height="100" rx="12" fill="white" style="filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.08))"/>
+  <rect x="250" y="100" width="170" height="4" rx="2" fill="#14b8a6"/>
+  <text x="270" y="150" fill="#14b8a6" font-family="system-ui" font-size="32" font-weight="700">3</text>
+  <text x="270" y="175" fill="#64748b" font-family="system-ui" font-size="12">Upcoming Appointments</text>
+  
+  <rect x="440" y="100" width="170" height="100" rx="12" fill="white" style="filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.08))"/>
+  <rect x="440" y="100" width="170" height="4" rx="2" fill="#6366f1"/>
+  <text x="460" y="150" fill="#6366f1" font-family="system-ui" font-size="32" font-weight="700">5</text>
+  <text x="460" y="175" fill="#64748b" font-family="system-ui" font-size="12">Unread Messages</text>
+  
+  <rect x="630" y="100" width="170" height="100" rx="12" fill="white" style="filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.08))"/>
+  <rect x="630" y="100" width="170" height="4" rx="2" fill="#10b981"/>
+  <text x="650" y="150" fill="#10b981" font-family="system-ui" font-size="32" font-weight="700">12</text>
+  <text x="650" y="175" fill="#64748b" font-family="system-ui" font-size="12">Past Consultations</text>
+  
+  <rect x="820" y="100" width="150" height="100" rx="12" fill="white" style="filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.08))"/>
+  <rect x="820" y="100" width="150" height="4" rx="2" fill="#f59e0b"/>
+  <text x="840" y="150" fill="#f59e0b" font-family="system-ui" font-size="32" font-weight="700">4</text>
+  <text x="840" y="175" fill="#64748b" font-family="system-ui" font-size="12">My Practitioners</text>
+  
+  <!-- Upcoming Appointments -->
+  <text x="250" y="245" fill="#1e293b" font-family="system-ui" font-size="18" font-weight="600">Upcoming Appointments</text>
+  
+  <rect x="250" y="265" width="520" height="100" rx="12" fill="white" style="filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.08))"/>
+  <circle cx="300" cy="315" r="30" fill="url(#teal)"/>
+  <text x="290" y="320" fill="white" font-family="system-ui" font-size="14" font-weight="600">SJ</text>
+  <text x="350" y="300" fill="#1e293b" font-family="system-ui" font-size="16" font-weight="600">Dr. Sarah Johnson</text>
+  <text x="350" y="320" fill="#64748b" font-family="system-ui" font-size="12">Internal Medicine</text>
+  <text x="350" y="345" fill="#64748b" font-family="system-ui" font-size="12">Tomorrow at 10:00 AM</text>
+  <rect x="660" y="300" width="90" height="32" rx="16" fill="#14b8a6"/>
+  <text x="680" y="320" fill="white" font-family="system-ui" font-size="12" font-weight="500">Join Call</text>
+  
+  <rect x="250" y="380" width="520" height="100" rx="12" fill="white" style="filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.08))"/>
+  <circle cx="300" cy="430" r="30" fill="#6366f1"/>
+  <text x="290" y="435" fill="white" font-family="system-ui" font-size="14" font-weight="600">MC</text>
+  <text x="350" y="415" fill="#1e293b" font-family="system-ui" font-size="16" font-weight="600">Dr. Michael Chen</text>
+  <text x="350" y="435" fill="#64748b" font-family="system-ui" font-size="12">Dermatology</text>
+  <text x="350" y="460" fill="#64748b" font-family="system-ui" font-size="12">Friday, Feb 5 at 2:30 PM</text>
+  
+  <!-- Quick Actions -->
+  <rect x="790" y="220" width="180" height="260" rx="12" fill="white" style="filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.08))"/>
+  <text x="810" y="250" fill="#1e293b" font-family="system-ui" font-size="14" font-weight="600">Quick Actions</text>
+  
+  <rect x="805" y="270" width="150" height="40" rx="8" fill="#f0fdfa"/>
+  <text x="830" y="295" fill="#0d9488" font-family="system-ui" font-size="12">Find a Practitioner</text>
+  
+  <rect x="805" y="320" width="150" height="40" rx="8" fill="#eff6ff"/>
+  <text x="830" y="345" fill="#3b82f6" font-family="system-ui" font-size="12">Book Appointment</text>
+  
+  <rect x="805" y="370" width="150" height="40" rx="8" fill="#fef3c7"/>
+  <text x="830" y="395" fill="#d97706" font-family="system-ui" font-size="12">View Messages</text>
+  
+  <rect x="805" y="420" width="150" height="40" rx="8" fill="#f0fdf4"/>
+  <text x="830" y="445" fill="#16a34a" font-family="system-ui" font-size="12">Health Records</text>
+</svg>
